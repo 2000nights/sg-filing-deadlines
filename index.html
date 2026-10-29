@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en-SG">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Singapore Company Filing Deadline Calculator: AGM, Annual Return, ECI, Form C-S, GST | 2000 Nights</title>
+<meta name="description" content="Free calculator for Singapore private companies. Enter your financial year end to see your AGM, ACRA annual return, ECI, Form C-S / Form C and GST F5 due dates, with the rule and official ACRA and IRAS source for each.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; manifest-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#0a1130">
+<link rel="canonical" href="https://2000nights.github.io/sg-filing-deadlines/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="2000 Nights">
+<meta property="og:title" content="Singapore Company Filing Deadline Calculator">
+<meta property="og:description" content="Enter your financial year end and see your AGM, annual return, ECI, Form C-S / C and GST F5 due dates. Free, no sign-up, works in your browser.">
+<meta property="og:url" content="https://2000nights.github.io/sg-filing-deadlines/">
+<meta property="og:image" content="https://2000nights.github.io/sg-filing-deadlines/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Singapore company filing deadline calculator by 2000 Nights">
+<meta property="og:locale" content="en_SG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Singapore Company Filing Deadline Calculator">
+<meta name="twitter:description" content="AGM, annual return, ECI, Form C-S / C and GST F5 due dates from your financial year end. Free.">
+<meta name="twitter:image" content="https://2000nights.github.io/sg-filing-deadlines/assets/og-image.png">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","name":"Singapore Company Filing Deadline Calculator","url":"https://2000nights.github.io/sg-filing-deadlines/","applicationCategory":"BusinessApplication","operatingSystem":"Any (web browser)","inLanguage":"en-SG","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Works out the AGM, ACRA annual return, ECI, Form C-S / Form C and GST F5 due dates for a Singapore private company from its financial year end.","publisher":{"@type":"Organization","name":"2000 Nights","logo":"https://2000nights.github.io/sg-filing-deadlines/assets/icon-192.png"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"When is the annual return due for a Singapore company?","acceptedAnswer":{"@type":"Answer","text":"A non-listed company files its annual return with ACRA within 7 months after its financial year end, or within 8 months if it keeps a branch register of members outside Singapore. For a 31 December year end, that is 31 July of the next year. The filing fee is S$60, and the late lodgment penalty is S$300, or S$600 if the return is more than 3 months late."}},
+{"@type":"Question","name":"Does my private company have to hold an AGM?","acceptedAnswer":{"@type":"Answer","text":"A non-listed company must hold its AGM within 6 months after its financial year end. A private company does not need to hold one if it sends its financial statements to members within 5 months after the year end, or if its members have passed a resolution to dispense with AGMs (the statements must still go out within 5 months). A dormant relevant company does not need an AGM. A member can still ask for an AGM up to 14 days before the 6-month deadline."}},
+{"@type":"Question","name":"When is Estimated Chargeable Income (ECI) due, and when can I skip it?","acceptedAnswer":{"@type":"Answer","text":"ECI is due within 3 months after the financial year end. A company does not need to file it if its revenue for the year is S$5 million or less and its ECI is nil. Filing within 1 or 2 months of the year end gives more GIRO instalments."}},
+{"@type":"Question","name":"When is Form C-S or Form C due?","acceptedAnswer":{"@type":"Answer","text":"The corporate income tax return for a financial year is filed in the following Year of Assessment (YA), by 30 November of that YA. For YA 2023 to YA 2027, a Form C-S filed through IRAS-listed accounting software (#SFFS) is due by 15 December instead."}},
+{"@type":"Question","name":"When is the GST F5 return due?","acceptedAnswer":{"@type":"Answer","text":"A GST-registered business files its GST F5 return and pays any GST one month after the end of each accounting period, which is usually quarterly. For a quarter ending 31 March, it is due by 30 April. A nil return is still required when there was no activity."}},
+{"@type":"Question","name":"Is my company information sent anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. The calculator runs entirely in your browser. Nothing you enter is sent to a server, and the page uses no cookies, analytics or tracking."}}
+]}]}
+</script>
+</head>
+<body>
+<a class="skip" href="#calculator">Skip to the calculator</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./" aria-label="2000 Nights home"><img src="assets/logo-128.png" width="36" height="36" alt=""> 2000 <span>NIGHTS</span></a>
+  <nav aria-label="Page sections"><a href="#calculator">Calculator</a><a href="#rules">How dates are worked out</a><a href="#faq">FAQ</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <p class="eyebrow">Free tool for Singapore companies</p>
+  <h1>Singapore company filing deadline calculator</h1>
+  <p class="lede">Enter your financial year end and a few details about your company to see your next AGM, annual return, ECI, corporate tax return and GST F5 due dates. Each date comes with its rule and a link to the official ACRA or IRAS page.</p>
+  <ul class="chips"><li>ACRA annual return</li><li>AGM and financial statements</li><li>ECI</li><li>Form C-S / C</li><li>GST F5</li><li>CPF and IR8A</li></ul>
+</div></div>
+
+<main id="main">
+<div class="wrap">
+<section id="calculator" class="card calc" aria-label="Deadline calculator">
+  <form id="calc-form" class="form" novalidate>
+    <h2>Your company</h2>
+    <p class="hint">For private companies limited by shares and incorporated in Singapore (not listed).</p>
+    <div class="field">
+      <label for="fye">Most recent financial year end (FYE)</label>
+      <input type="date" id="fye" name="fye" min="2000-01-01" max="2100-12-31" required>
+      <div class="quick" aria-label="Common year ends">
+        <button type="button" data-fye="31-12">31 Dec</button><button type="button" data-fye="31-3">31 Mar</button><button type="button" data-fye="30-6">30 Jun</button><button type="button" data-fye="30-9">30 Sep</button>
+      </div>
+      <small>The last year end that has passed. Dates are shown for that year and the next two.</small>
+    </div>
+    <div class="field">
+      <label for="agm">How does the company deal with its AGM?</label>
+      <select id="agm" name="agm">
+        <option value="Send FS within 5 months" selected>Sends financial statements within 5 months (no AGM)</option>
+        <option value="Hold an AGM">Holds an AGM</option>
+        <option value="AGM dispensed by resolution">AGM dispensed with by members' resolution</option>
+      </select>
+    </div>
+    <fieldset class="field"><legend>Dormant relevant company?</legend>
+      <div class="seg"><label><input type="radio" name="dormant" value="No" checked><span>No</span></label><label><input type="radio" name="dormant" value="Yes"><span>Yes</span></label></div>
+      <small>Dormant, not listed and total assets of S$500,000 or less.</small>
+    </fieldset>
+    <fieldset class="field"><legend>Branch register of members outside Singapore?</legend>
+      <div class="seg"><label><input type="radio" name="branch" value="No" checked><span>No</span></label><label><input type="radio" name="branch" value="Yes"><span>Yes</span></label></div>
+    </fieldset>
+    <div class="row2">
+      <div class="field">
+        <label for="eciWaiver">ECI waiver applies?</label>
+        <select id="eciWaiver" name="eciWaiver"><option value="No" selected>No</option><option value="Yes">Yes</option><option value="Not sure">Not sure</option></select>
+      </div>
+      <div class="field">
+        <label for="form">Tax return form</label>
+        <select id="form" name="form"><option selected>Form C-S</option><option>Form C-S (Lite)</option><option>Form C</option><option>Form for Dormant Company</option></select>
+      </div>
+    </div>
+    <small class="field note-under">ECI waiver: revenue S$5m or less and ECI is nil. Form C-S: revenue S$5m or less. C-S (Lite): S$200,000 or less.</small>
+    <fieldset class="field" id="sffs-f"><legend>Filing Form C-S through accounting software (#SFFS)?</legend>
+      <div class="seg"><label><input type="radio" name="sffs" value="No" checked><span>No</span></label><label><input type="radio" name="sffs" value="Yes"><span>Yes</span></label></div>
+    </fieldset>
+    <fieldset class="field"><legend>GST registered?</legend>
+      <div class="seg"><label><input type="radio" name="gst" value="Yes" checked><span>Yes</span></label><label><input type="radio" name="gst" value="No"><span>No</span></label></div>
+    </fieldset>
+    <div class="row2" id="gst-opts">
+      <div class="field"><label for="gstFreq">GST filing</label>
+        <select id="gstFreq" name="gstFreq"><option selected>Quarterly</option><option>Monthly</option></select></div>
+      <div class="field" id="gst-q"><label for="gstMonth">Quarters end in</label>
+        <select id="gstMonth" name="gstMonth"><option value="3" selected>Mar, Jun, Sep, Dec</option><option value="1">Jan, Apr, Jul, Oct</option><option value="2">Feb, May, Aug, Nov</option></select></div>
+    </div>
+    <details class="more">
+      <summary>More options</summary>
+      <fieldset class="field"><legend>Employees (including paid directors)?</legend>
+        <div class="seg"><label><input type="radio" name="employees" value="No" checked><span>No</span></label><label><input type="radio" name="employees" value="Yes"><span>Yes</span></label></div>
+        <small>Adds monthly CPF and the 1 March IR8A / AIS date.</small>
+      </fieldset>
+      <div class="field" id="emp-n"><label for="nEmployees">How many employees?</label>
+        <select id="nEmployees" name="nEmployees"><option value="1" selected>Fewer than 5</option><option value="5">5 or more (AIS compulsory)</option></select></div>
+      <fieldset class="field"><legend>Audit exempt as a small company?</legend>
+        <div class="seg"><label><input type="radio" name="auditExempt" value="Yes" checked><span>Yes</span></label><label><input type="radio" name="auditExempt" value="No"><span>No</span></label></div>
+        <small>Meets 2 of 3: revenue S$10m or less, total assets S$10m or less, 50 or fewer employees.</small>
+      </fieldset>
+      <div class="row2">
+        <fieldset class="field"><legend>Exempt private company?</legend>
+          <div class="seg"><label><input type="radio" name="epc" value="Yes" checked><span>Yes</span></label><label><input type="radio" name="epc" value="No"><span>No</span></label></div></fieldset>
+        <fieldset class="field"><legend>Solvent?</legend>
+          <div class="seg"><label><input type="radio" name="solvent" value="Yes" checked><span>Yes</span></label><label><input type="radio" name="solvent" value="No"><span>No</span></label></div></fieldset>
+      </div>
+      <fieldset class="field"><legend>IRAS has waived the tax return ("No Business Done")?</legend>
+        <div class="seg"><label><input type="radio" name="taxWaived" value="No" checked><span>No</span></label><label><input type="radio" name="taxWaived" value="Yes"><span>Yes</span></label></div>
+      </fieldset>
+    </details>
+    <p class="privacy"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#6b7280" d="M12 1 3 5v6c0 5.6 3.8 10.7 9 12 5.2-1.3 9-6.4 9-12V5l-9-4Z"/></svg>Everything is worked out in your browser. Nothing is sent or stored.</p>
+  </form>
+  <div class="results" aria-live="polite">
+    <div class="res-head">
+      <div><h2>Your next deadlines</h2><p class="hint flush">Statutory dates from today. Overdue items are listed separately.</p></div>
+      <div class="tools"><button type="button" class="btn" id="btn-ics">Add to calendar (.ics)</button><button type="button" class="btn" id="btn-print">Print</button><button type="button" class="btn" id="btn-link">Copy link</button></div>
+    </div>
+    <div id="results-body"><noscript><p>This calculator needs JavaScript. The rules are listed below if you prefer to work the dates out by hand.</p></noscript></div>
+  </div>
+</section>
+</div>
+
+<section id="rules" class="block"><div class="wrap">
+  <h2>How each deadline is worked out</h2>
+  <p class="sub">These are the rules the calculator uses for a non-listed private company. All of them were checked against the official pages on 30 Oct 2026.</p>
+  <div class="rules">
+    <article class="card rule"><h3>Annual return (ACRA)</h3><p class="when">7 months after FYE (8 with a branch register outside Singapore)</p>
+      <p>Filed on BizFile. A solvent exempt private company does not attach financial statements, but declares solvency. A dormant relevant company does not need financial statements either. The fee is S$60, and the late penalty is S$300, or S$600 if more than 3 months late.</p>
+      <p class="src">Sources: <a href="https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/deadline-requirements/" rel="noopener">ACRA annual return deadlines</a>, <a href="https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/filing-annual-returns-companies/penalties-enforcement-late-annual-return-filing/" rel="noopener">ACRA late filing penalties</a></p></article>
+    <article class="card rule"><h3>AGM and financial statements</h3><p class="when">AGM within 6 months; statements to members within 5 months if there is no AGM</p>
+      <p>If you hold an AGM, the financial statements go to members at least 14 days before it, so the latest date is 6 months minus 14 days. A private company that sends its statements within 5 months does not need an AGM, and the 5-month limit also applies when members have dispensed with AGMs. A dormant relevant company needs neither.</p>
+      <p class="src">Sources: <a href="https://www.acra.gov.sg/manage/companies/legal-requirements-common-offences/holding-annual-general-meetings/due-dates-requirements/" rel="noopener">ACRA AGM due dates</a>, <a href="https://sso.agc.gov.sg/Act/CoA1967?ProvIds=pr175-%2Cpr175A-&amp;ViewType=Within" rel="noopener">Companies Act s175 and s175A</a>, <a href="https://sso.agc.gov.sg/Act/CoA1967?ProvIds=pr203-&amp;ViewType=Within" rel="noopener">s203</a></p></article>
+    <article class="card rule"><h3>Estimated Chargeable Income (ECI)</h3><p class="when">3 months after FYE</p>
+      <p>Not needed when revenue is S$5 million or less <em>and</em> ECI is nil. Both conditions must hold. Filing earlier gives more GIRO instalments for the tax.</p>
+      <p class="src">Source: <a href="https://www.iras.gov.sg/taxes/corporate-income-tax/estimated-chargeable-income-(eci)-filing" rel="noopener">IRAS ECI filing</a></p></article>
+    <article class="card rule"><h3>Form C-S, C-S (Lite), Form C</h3><p class="when">30 Nov of the Year of Assessment (15 Dec via #SFFS)</p>
+      <p>Income for a financial year is taxed in the next Year of Assessment, so a year ending 31 Mar 2026 is YA 2027 and due on 30 Nov 2027. Form C-S filed through IRAS-listed accounting software gets until 15 Dec for YA 2023 to YA 2027. A dormant company files the Form for Dormant Company unless IRAS has waived the return.</p>
+      <p class="src">Sources: <a href="https://www.iras.gov.sg/taxes/corporate-income-tax/basics-of-corporate-income-tax/corporate-income-tax-filing-season-2026" rel="noopener">IRAS filing season 2026</a>, <a href="https://www.iras.gov.sg/taxes/corporate-income-tax/form-c-s-form-c-s-(lite)-form-c-filing/using-accounting-software-to-prepare-file-form-c-s-seamlessly" rel="noopener">IRAS #SFFS</a></p></article>
+    <article class="card rule"><h3>GST F5</h3><p class="when">1 month after each accounting period ends</p>
+      <p>Most businesses file quarterly; some file monthly. File a nil return even with no sales. The late filing penalty is S$200, then S$200 for each completed month, up to S$10,000 per return.</p>
+      <p class="src">Sources: <a href="https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/filing-gst/gst-filing-due-dates-and-requests-for-extension" rel="noopener">IRAS GST due dates</a>, <a href="https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/filing-gst/late-filing-or-non-filing-of-GST-returns-f5-f8" rel="noopener">IRAS late GST filing</a></p></article>
+    <article class="card rule"><h3>CPF and IR8A (if you have employees)</h3><p class="when">CPF by month end (14th of next month before interest); IR8A by 1 Mar</p>
+      <p>CPF contributions are due on the last day of the month the wages are for. Interest of 1.5% a month applies if they are still unpaid on the 14th of the next month. IR8A for the previous calendar year goes to staff, or to IRAS under the Auto-Inclusion Scheme (compulsory with 5 or more employees), by 1 March.</p>
+      <p class="src">Sources: <a href="https://www.cpf.gov.sg/employer/making-cpf-contributions" rel="noopener">CPF Board contributions</a>, <a href="https://www.iras.gov.sg/taxes/individual-income-tax/employers/auto-inclusion-scheme-(ais)-for-employment-income/reporting-employee-earnings-(ir8a-appendix-8a-appendix-8b)" rel="noopener">IRAS IR8A and AIS</a></p></article>
+  </div>
+
+  <aside class="cta" aria-labelledby="cta-h">
+    <div>
+      <h2 id="cta-h">Want all three years in one file you can tick off?</h2>
+      <p>The Singapore Company Compliance Tracker is a spreadsheet that does the same sums and keeps them for you:</p>
+      <ul>
+        <li>A checklist of every ACRA, IRAS, GST and CPF date for three financial years, with status and done dates</li>
+        <li>A dashboard showing what's overdue and what's due in the next 30 days</li>
+        <li>A 36-month calendar that prints on one A4 page</li>
+        <li>Fees, late penalties and event deadlines, such as director changes</li>
+      </ul>
+    </div>
+    <div class="buy">
+      <div class="price">US$12<small>One-time. Excel, Google Sheets and LibreOffice.</small></div>
+      <a class="btn gold" href="https://2000nights.gumroad.com/l/sg-compliance-tracker" rel="noopener">See the tracker</a>
+      <p class="fine">Offline, no sign-up, no subscription. The calculator above stays free.</p>
+    </div>
+  </aside>
+</div></section>
+
+<section id="faq" class="block faq"><div class="wrap">
+  <h2>Frequently asked questions</h2>
+  <details><summary>When is the annual return due for a Singapore company?</summary><p>A non-listed company files its annual return with ACRA within 7 months after its financial year end, or within 8 months if it keeps a branch register of members outside Singapore. For a 31 December year end, that is 31 July of the next year. The filing fee is S$60, and the late lodgment penalty is S$300, or S$600 if the return is more than 3 months late.</p></details>
+  <details><summary>Does my private company have to hold an AGM?</summary><p>A non-listed company must hold its AGM within 6 months after its financial year end. A private company does not need to hold one if it sends its financial statements to members within 5 months after the year end, or if its members have passed a resolution to dispense with AGMs (the statements must still go out within 5 months). A dormant relevant company does not need an AGM. A member can still ask for an AGM up to 14 days before the 6-month deadline.</p></details>
+  <details><summary>When is Estimated Chargeable Income (ECI) due, and when can I skip it?</summary><p>ECI is due within 3 months after the financial year end. A company does not need to file it if its revenue for the year is S$5 million or less and its ECI is nil. Filing within 1 or 2 months of the year end gives more GIRO instalments.</p></details>
+  <details><summary>When is Form C-S or Form C due?</summary><p>The corporate income tax return for a financial year is filed in the following Year of Assessment (YA), by 30 November of that YA. For YA 2023 to YA 2027, a Form C-S filed through IRAS-listed accounting software (#SFFS) is due by 15 December instead.</p></details>
+  <details><summary>When is the GST F5 return due?</summary><p>A GST-registered business files its GST F5 return and pays any GST one month after the end of each accounting period, which is usually quarterly. For a quarter ending 31 March, it is due by 30 April. A nil return is still required when there was no activity.</p></details>
+  <details><summary>Is my company information sent anywhere?</summary><p>No. The calculator runs entirely in your browser. Nothing you enter is sent to a server, and the page uses no cookies, analytics or tracking.</p></details>
+
+  <p class="disclaimer"><strong>Not legal or tax advice.</strong> This calculator is a planning aid. Rules were checked against official ACRA, IRAS and CPF Board pages on 30 Oct 2026, and they can change. Some companies have special arrangements, such as an approved extension of time, special GST periods or a 52-week financial year. Always confirm your own due dates in BizFile and myTax Portal, and speak to a qualified professional if you are unsure. Listed companies, VCCs, LLPs and foreign company branches follow different rules and are not covered.</p>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div>&copy; 2026 2000 Nights. Rules last checked 30 Oct 2026.</div>
+  <div>No cookies, no tracking. <a href="https://2000nights.gumroad.com/l/sg-compliance-tracker" rel="noopener">Compliance Tracker spreadsheet</a></div>
+</div></footer>
+<script src="assets/engine.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
