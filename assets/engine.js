@@ -1,4 +1,4 @@
-/* Singapore company filing deadline rules. Same logic as the 2000 Nights
+/* Singapore company filing deadline rules. Same logic as the
    Singapore Company Compliance Tracker workbook (rules checked 30 Oct 2026). */
 (function (root, factory) {
   if (typeof module === "object" && module.exports) module.exports = factory();

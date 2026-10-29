@@ -89,7 +89,7 @@
     var stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
     var fold = function (s) { var o = [], i = 0; while (s.length - i > 74) { o.push(s.slice(i, i + 74)); i += 74; } o.push(s.slice(i)); return o.join("\r\n "); };
     var escI = function (s) { return String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n"); };
-    var L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//2000 Nights//SG Filing Deadlines//EN", "CALSCALE:GREGORIAN", "X-WR-CALNAME:Company filing deadlines"];
+    var L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//SG Filing Deadlines//EN", "CALSCALE:GREGORIAN", "X-WR-CALNAME:Company filing deadlines"];
     rows.forEach(function (r, i) {
       L.push("BEGIN:VEVENT", "UID:" + d(r.actby) + "-" + r.type + "-" + i + "@sg-filing-deadlines", "DTSTAMP:" + stamp,
         "DTSTART;VALUE=DATE:" + d(r.actby), "DTEND;VALUE=DATE:" + d(new Date(r.actby.getTime() + 86400000)),

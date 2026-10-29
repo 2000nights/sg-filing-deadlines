@@ -11,8 +11,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,su
 .skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px 12px;z-index:9}
 header.top{background:var(--deep);color:#fff}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
-.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:700;letter-spacing:.14em;font-size:13px}
-.brand img{width:36px;height:36px;border-radius:50%}
+.brand{display:flex;align-items:center;gap:6px;color:#fff;text-decoration:none;font-weight:700;letter-spacing:.14em;font-size:13px;text-transform:uppercase}
 .brand span{color:var(--gold-2)}
 header.top nav a{color:#cfd6ea;text-decoration:none;font-size:14px;margin-left:18px}
 header.top nav a:hover{color:#fff}
